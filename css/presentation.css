@@ -56,7 +56,18 @@ body {
 }
 
 #work-at-nearinfinity.present li#hospital span {
-  -webkit-transition: color .5s linear 2s;
+  -webkit-transition: color .5s linear 4s;
+  color: #999;
+}
+
+#work-at-nearinfinity.present li#website span {
+  -webkit-transition: color .5s linear 7s;
+  color: #999;
+}
+
+#work-at-nearinfinity.present li#blog span {
+  -webkit-transition: color .5s linear 10s, font-size .1s ease-in-out 11s;
+  font-size: 30px;
   color: #999;
 }
 
@@ -64,15 +75,17 @@ body {
   width: 1000px;
 }
 
-#work-at-nearinfinity.present li#website span {
-  -webkit-transition: color .5s linear 3s;
-  color: #999;
+#mobile-app {
+  text-align: center;
+  position: relative;
 }
 
-#work-at-nearinfinity.present li#blog span {
-  -webkit-transition: color .5s linear 4s, font-size .1s linear 5s;
-  font-size: 30px;
-  color: #999;
+#mobile-app h1 {
+  font-size: 70px;
+  position: absolute;
+  top: 350px;
+  left: -250px;
+  -webkit-transform: rotate(-90deg);
 }
 
 /* Ironic code */
