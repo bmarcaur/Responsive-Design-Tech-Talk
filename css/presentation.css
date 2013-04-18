@@ -75,6 +75,8 @@ body {
   color: #999;
 }
 
+/* Ironic code */
+
 #hip-code {
   position: relative;
 }
@@ -85,4 +87,11 @@ body {
   position: absolute;
   right: 20px;
   bottom: 70px;
+}
+
+#actual-code pre {
+  width: 900px;
+  height: 800px;
+  font-size: 32px;
+  padding: 50px 0 50px 0;
 }
