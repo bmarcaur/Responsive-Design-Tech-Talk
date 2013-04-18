@@ -1,9 +1,88 @@
-#title h1 {
-    font-size: 190px;
+body {
+  -webkit-font-smoothing: antialiased;
+}
 
-    -webkit-transform: translateZ(50px);
-    -moz-transform:    translateZ(50px);
-    -ms-transform:     translateZ(50px);
-    -o-transform:      translateZ(50px);
-    transform:         translateZ(50px);
+/* Title */
+#title h1 {
+  font-size: 190px;
+  -webkit-transform: translateZ(50px);
+}
+
+/* Realization */
+#realization h2 {
+  -webkit-transform: translateZ(-50px);
+}
+
+/* Cute animation for who am i */
+#who-am-i h1 {
+  font-size: 150px;
+}
+
+#who-am-i h1 span {
+  display: inline-block;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#who-am-i.present h1 span {
+  -webkit-transform: rotate(-10deg);
+  -webkit-transition-delay: 1s;
+}
+
+#who-am-i.present h2 {
+  font-size: 70px;
+  -webkit-transition: font-size .1s;
+  -webkit-transition-delay: 2s;
+}
+
+/* Snarky list */
+#work-at-nearinfinity {
+  overflow: visible;
+}
+
+#work-at-nearinfinity h1 {
+  font-weight: bold;
+  font-size: 70px;
+}
+
+#work-at-nearinfinity span {
+  font-weight: lighter;
+  color: transparent;
+}
+
+#work-at-nearinfinity.present li#console span {
+  -webkit-transition: color .5s linear 1s;
+  color: #999;
+}
+
+#work-at-nearinfinity.present li#hospital span {
+  -webkit-transition: color .5s linear 2s;
+  color: #999;
+}
+
+#work-at-nearinfinity li#website, #work-at-nearinfinity li#blog{
+  width: 1000px;
+}
+
+#work-at-nearinfinity.present li#website span {
+  -webkit-transition: color .5s linear 3s;
+  color: #999;
+}
+
+#work-at-nearinfinity.present li#blog span {
+  -webkit-transition: color .5s linear 4s, font-size .1s linear 5s;
+  font-size: 30px;
+  color: #999;
+}
+
+#hip-code {
+  position: relative;
+}
+
+#hip-code h1 {
+  color: white;
+  z-index: 5;
+  position: absolute;
+  right: 20px;
+  bottom: 70px;
 }
