@@ -98,13 +98,13 @@ body {
   color: white;
   z-index: 5;
   position: absolute;
-  right: 20px;
+  right: 120px;
   bottom: 70px;
 }
 
 #actual-code pre {
   width: 900px;
-  height: 800px;
+  height: 700px;
   font-size: 32px;
   padding: 50px 0 50px 0;
 }
